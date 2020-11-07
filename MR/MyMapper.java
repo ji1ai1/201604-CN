@@ -1,4 +1,4 @@
-package SY.YC;
+package JA.YC;
 
 public class MyMapper extends com.aliyun.odps.mapred.MapperBase
 {
