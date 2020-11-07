@@ -6,4 +6,4 @@ CREATE TABLE TIANCHI_CN_TARGET2
 	, TARGET DOUBLE
 );
 
-JAR -libjars SY_YC.jar
+JAR -libjars JA_YC.jar
