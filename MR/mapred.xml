@@ -1,0 +1,15 @@
+<mapper>SY.YC.MyMapper</mapper>
+<reducer>SY.YC.MyReducer</reducer>
+<mapOutputKey>ITEM_ID:BIGINT, STORE_CODE:STRING, A:DOUBLE, B:DOUBLE</mapOutputKey>
+<mapOutputValue>DASE:BIGINT, QAN:DOUBLE, QANALL:DOUBLE</mapOutputValue>
+<numReduceTask>256</numReduceTask>
+<memoryForReduceTask>8192</memoryForReduceTask>
+<inputTables>
+	<table>
+		<name>IF_IAF</name>
+	</table>
+</inputTables>
+<outputTable>
+	<name>TIANCHI_CN_TARGET2</name>
+</outputTable>
+</mapred>
