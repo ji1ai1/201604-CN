@@ -1,5 +1,5 @@
-<mapper>SY.YC.MyMapper</mapper>
-<reducer>SY.YC.MyReducer</reducer>
+<mapper>JA.YC.MyMapper</mapper>
+<reducer>JA.YC.MyReducer</reducer>
 <mapOutputKey>ITEM_ID:BIGINT, STORE_CODE:STRING, A:DOUBLE, B:DOUBLE</mapOutputKey>
 <mapOutputValue>DASE:BIGINT, QAN:DOUBLE, QANALL:DOUBLE</mapOutputValue>
 <numReduceTask>256</numReduceTask>
